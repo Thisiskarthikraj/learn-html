@@ -1,0 +1,27 @@
+.navbar{
+    position: fixed;
+}
+body{
+    background-image: linear-gradient(0deg, rgb(82, 160, 53), rgb(242, 248, 239));
+    background-repeat: no-repeat;
+
+}
+ .card{
+text-align: center;
+}
+.card .btn:hover{
+    background-color: brown;
+
+}
+.nav-item .nav-link:hover{
+background-color: rgb(197, 51, 3);
+}
+@media (min-width:700px){
+
+    .card{
+        width: 100%;
+    }
+}
+.p1{
+    text-align: center;
+}
