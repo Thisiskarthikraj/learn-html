@@ -1,0 +1,79 @@
+
+body{
+    background-image: url(../img/trekking-bg.jpg);
+    background-attachment: fixed;
+}
+.bg{
+    background-color: rgb(255, 255, 255);
+    opacity: 90%;
+}
+.hd{
+    text-align: center;
+}
+.p1{
+    margin-left:550px ;
+}
+.g{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+
+}
+.js{
+    color: rgb(255, 255, 255);
+}
+.w{
+    width: 100%;
+    height: 80%;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.p2{
+    text-align: justify;
+    color: rgb(5, 47, 173);
+    font-family: 'Playfair Display', serif;
+}
+
+.hd3{
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: 'Lilita One', cursive;
+    font-family: 'Playfair Display', serif;
+}
+.bg2{
+    background-color: rgb(246, 255, 0);
+    border-radius: 20px;
+
+
+}
+.bg3{
+    background-color: white;
+   
+border-radius: 20px;
+
+
+}
+.hd6{
+    color: darkred;
+}
+
+.hd7{
+    color: green;
+}
+.bg5{
+    background-color: rgb(14, 14, 14);
+
+}
+.foo{
+    text-align: center;
+    color: white;
+}
+.col-lg-6 .w {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.col-lg-6:hover .w{
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);  
+}
