@@ -10,6 +10,8 @@
 .hd2{
    font-family: 'Zen Tokyo Zoo', cursive;
    font-size: 50px;
+   text-align: center;
+   margin-top: 300px;
 
 }
 #part1{
@@ -46,6 +48,17 @@
 }
 .abt{
    background-color:  rgb(191, 232, 252);
-   height: 500px;
+   height: 600px;
    clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
+}
+#ho{
+   height:900px ;
+}
+@media (max-width:700px){
+   .img1{
+      width: 300px;
+      height: 300px;
+      margin-left: 0;
+      margin-top: 0;
+   }
 }
