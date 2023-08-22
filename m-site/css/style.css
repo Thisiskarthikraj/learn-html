@@ -1,25 +1,57 @@
+#n{
+    color: rgb(47, 0, 255);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+}
 .bg{
-    background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 94, 255));
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
 
 }
 .bg1{
-    background-image:linear-gradient(to left, rgba(241, 217, 1, 0), rgb(0, 51, 255)0);
+    /* background-image:linear-gradient(to left, rgba(240, 101, 101, 0), rgb(0, 51, 255)0); */
+    background-color: rgb(245, 245, 245);
+    opacity: 90%;
+    background-image: url(../img/linkedin-sales-solutions-46bom4lObsA-unsplash.jpg);
+  background-size: cover;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 }
 .l{
  margin-top: 300px;
 margin-bottom: 600px;
 
 }
+.abc{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(4, 37,225);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.img1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
 .h1{
     font-family: 'Molle', cursive;
 font-weight: bolder;
-color: chocolate;
+color: rgb(4, 0, 255);
 }
-#cf{
-    color:  rgb(255, 204, 0);
+#c{
+    border-bottom: 2px solid white;
+}
+#cf1{
+    color:  rgb(0, 17, 255);
+    font-size: large;
  
 font-family: 'Molle', cursive;
 font-weight: bolder;
+}
+.nav-link:hover{
+    background-color: bisque;
+
 }
 .hda{
     color:rgb(0, 94, 255) ;
@@ -28,7 +60,7 @@ font-weight: bolder;
 .p1{text-align: justify;}
 
 /* MEDIA QUERY */
-@media (max-width:550px){
+@media (max-width:790px){
     .l{
         margin-top: 50px;
        margin-bottom: 100px;
@@ -37,10 +69,55 @@ font-weight: bolder;
        .cd{
         align-items: center;
        }
+       .bg1{
+        display: none;
+       }
+       .abc{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(4, 37,225);
+        margin-top: 20px;
+        margin-bottom: 20px;
+        text-align: start;
+    }
+    
 
 }
+.cp{
+    color: white;
+    font: bolder;
+    text-align: center;
+    border-bottom: 2px solid white;
+    border-top: 2px solid  white;
+}
+
+.xl{
+    color: white;
+}
+.xl:hover{
+    color: goldenrod;
+}
+.nim{
+    margin: 10px;
+}
+.nim:hover{
+    background-color: white;
+}
+.btn1{
+    color: blue;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+.btn1:hover{
+    color: rgb(253, 253, 253);
+    border-radius: 10px;
+    background-color: rgb(8, 51, 241);
+}
+.np{
+    text-align: justify;
+}
 .bg3{
-    background-color:rgb(0, 94, 255) ;
+    background-color:brown;
 }
 .hdc{
     color: white;
